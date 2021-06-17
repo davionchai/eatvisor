@@ -1,0 +1,86 @@
+---
+output:
+  revealjs::revealjs_presentation:
+    theme: black
+      
+# ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## WQD7001 Group Project - Eatvisor
+
+<br>
+<br>
+<div align="left">
+<h4>Brought to you by the <strong>3R</strong> (G13)</h4>
+<br>
+<br>
+<h5>Proud Members of 3R:</h5>
+</div>
+
+Name | ID
+------------- | -------------
+Chai Kau Yu, Davion | (S2019226)
+Nur Aliah Hasshim |(S2031689)
+Most Samin Sultana | (S2035295)
+Halimatun Syida Binti Amran | (S2030294)
+
+## API(s), References & Links
+
+- Location API Service - [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview)
+- GitHub Repository - [Eatvisor@GitHub](https://github.com/davionchai/eatvisor)
+- Video Presentation (Private) - [Eatvisor@YouTube](https://youtu.be/AEp1Fe-jss8)
+
+![bannerPicture](./img/banner.png)
+
+## Randomized Restaurant Recommender a.k.a Eatvisor
+<div><h4><a href="https://davionchai.shinyapps.io/Eatvisor/" target="_blank">Click Me to Visit the App !</a></h4></div>
+
+<div>
+Now now, have you ever stumbled at deciding what to eat for your meal? Fret not! No more asking "where to eat"!
+</div>
+<hr>
+<span style="color: red;">Eatvisor</span> is telling you the top 20 nearest restaurants based on your device location !
+
+<div style="text-align: justify; text-align-last: center;">
+<ul>
+<li>Decide what to eat</li>
+<li>Show where to eat</li>
+<li>List what to eat</li>
+<li>Graph down the ratings</li>
+</ul>
+</div>
+
+## Workflow
+
+#### Powered by R | Shiny | Google
+<a href="https://davionchai.shinyapps.io/Eatvisor/" target="_blank">Eatvisor</a> is now live to solve your first world problem - where to eat !
+![bannerPicture](./img/workflow.png)
+
+
+##  Challenges & Lessons
+
+Now here's our take 3 on 3
+
+<hr>
+<div style="text-align: left; text-align-last: left;">
+<p style="color: #DBE6FD;"><u>Challenges</u></p>
+<ul style="list-style-type: none;">
+<li>R is a very unfamiliar language to us</li>
+<li>Shiny framework is not common</li>
+<li>Data sourcing is hard</li>
+</ul>
+
+<br>
+
+<p style="color: #DBE6FD;"><u>Lessons</u></p>
+<ul style="list-style-type: none;">
+<li>How to build reproducible application and presentation</li>
+<li>How to interpret and integrate JSON data with R</li>
+<li>How to ask questions and tackle it</li>
+</ul>
+</div>
